@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 					unescape: false
 				}
 			},
-			files: [ 'Gruntfile.js' ]
+			files: [ 'Gruntfile.js', 'code.js' ]
 		},
 
 		connect: {
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 
 		watch: {
 			main: {
-				files: [ 'Gruntfile.js' ],
+				files: [ 'Gruntfile.js', 'code.js' ],
 				tasks: 'default'
 			}
 		}
