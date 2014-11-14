@@ -1,0 +1,21 @@
+{
+  "name": "game",
+  "version": "0.0.1",
+  "description": "a game in js",
+  "main": "index.html",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Mike Holm",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/mikeholm/game.js.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+      "grunt-contrib-watch": "~0.5.3",
+      "grunt-contrib-connect": "~0.4.1",
+      "grunt-contrib-jshint": "~0.6.4",
+      "grunt": "~0.4.0"
+  }
+}

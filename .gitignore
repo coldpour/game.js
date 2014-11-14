@@ -1,0 +1,6 @@
+# node / npm junk
+node_modules
+npm-debug.log
+
+# editor files
+*~
